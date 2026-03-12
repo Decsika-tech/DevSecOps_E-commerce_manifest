@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: grocery-app
-        image: decsika/grocery-appv1:latest
+        image: decsika/grocery-appv4:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
@@ -30,5 +30,5 @@ spec:
   ports:
   - protocol: TCP
     port: 80                 # Expose port 80
-    targetPort: 3000
+    targetPort: 4173
   type: LoadBalancer
