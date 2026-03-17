@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: grocery-app
-        image: decsi/groc
+        image: decsika/grocery-appv1:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
